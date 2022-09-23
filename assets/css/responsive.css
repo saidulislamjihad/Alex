@@ -1,0 +1,126 @@
+@media screen and (max-width: 991px){
+    .home-bottom-section {
+        background: #F9F9F9;
+    }
+    .bg-outer {
+        display: none;
+    }
+    .row.items-wrapper {
+        position: initial;
+        top: initial;
+        transform: initial;
+    }
+    .home-main-top .main-heading {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .left-content-wrapper .sec-heading {
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .right-content-wrapper .items-outer .heading {
+        font-size: 30px;
+    }
+    .right-content-wrapper .items-outer .top-heading {
+        font-size: 20px;
+    }
+    .left-content-wrapper .complate.work {
+        margin-right: 0;
+        padding: 10px;
+    }
+    .left-content-wrapper .complate.years {
+        padding: 10px;
+        margin-right: 0;
+    }
+    .left-content-wrapper .complate.years .number {
+        font-size: 35px;
+    }
+    .project-item-content .heading {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .project-item-content p.sub-heading {
+        font-size: 14px;
+    }
+    .custom-slick-navigator {
+        padding-left: 0;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .testimonial-item-content {
+        text-align: center;
+    }
+    .author-detail-outer {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 767px){
+    .nav-toggle-btn {
+        display: flex;
+    }
+    .menu-visible .nav-toggle-btn .btn-inner {
+        border-color: transparent;
+    }
+    .menu-visible .nav-toggle-btn .btn-inner:before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .menu-visible .nav-toggle-btn .btn-inner:after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .nav-items-wrapper .nav-list {
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 80px;
+        padding-top: 30px;
+        display: block;
+        width: 300px;
+        height: 100vh;
+        background: #ffffff;
+        align-items: flex-start;
+        padding-left: 5%;
+        z-index: 99;
+        overflow: hidden;
+        transition: all .5s ease;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .menu-visible .nav-list {
+        right: 0;
+    }
+    .nav-list .nav-item{
+        height: auto;
+    }
+    .service-item-outer {
+        margin-bottom: 20px;
+    }
+    .left-content-wrapper .complate.work {
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .left-content-wrapper .complate.years {
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 450px){
+    .footer-content-wrapper .heading a {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .footer-content-wrapper .phone {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .sec-heading .after:after {
+        transform: translateX(-50%);
+    }
+
+    .testimonial-item-content {
+        padding-left: 40px;
+    }
+
+}
