@@ -5,19 +5,21 @@ $(document).ready(function(){
 		$(this).addClass("active");
 	});
   // Nav menu visible
-  $(window).resize(function(){
-    if($(window).width() <= 767){
-      $('.nav-toggle-btn').click(function(){
-        $(this).closest('.nav-items-wrapper').toggleClass('menu-visible');
-      });
-    }
+  // $(window).resize(function(){
+  //   if($(window).width() <= 767){
+  //     $('.nav-toggle-btn').click(function(){
+  //       $(this).closest('.nav-items-wrapper').toggleClass('menu-visible');
+  //     });
+  //   }
+  // });
+  // if($(window).width() <= 767){
+  //   $('.nav-toggle-btn').click(function(){
+  //     $(this).closest('.nav-items-wrapper').toggleClass('menu-visible');
+  //   });
+  // }
+  $('.nav-toggle-btn').click(function(){
+    $(this).closest('.nav-items-wrapper').toggleClass('menu-visible');
   });
-  if($(window).width() <= 767){
-    $('.nav-toggle-btn').click(function(){
-      $(this).closest('.nav-items-wrapper').toggleClass('menu-visible');
-    });
-  }
-
 });
 
 //Company slider
